@@ -1,0 +1,712 @@
+#main-container{
+	background-color: darkgreen;
+	width: 80%;
+	margin: auto;
+}
+@media screen and (max-width: 600px){
+	#main-container{
+	width: 100%;
+	}
+}
+
+/*table{
+	margin-left: 10%;
+}
+tr{
+
+}
+*/
+
+#main{
+    display: grid;
+}
+#move-area{
+	margin-left: ;
+	background-color: ;
+}
+
+@media screen and (max-width: 600px) {
+	#move-area{
+		margin-left: ;
+	}
+}
+
+#player-name{
+        background-color: ;
+        width: 100%;
+        margin-top: -22px;
+        margin-bottom: 35px;
+    }
+
+@media screen and (max-width: 600px) {
+    #player-name{
+        background-color: ;
+        width: 100%;
+        margin-top: -22px;
+        margin-bottom: 35px;
+    }
+}
+
+
+#save-name{
+        background-color: ;
+        color: white;
+        width: 28%;
+        margin-top: ;
+        margin-bottom: ;
+        float: right;
+        margin-right: 2px;
+        font-size: 30px;
+        font-weight: bold;
+        display: ;
+        visibility: hidden;
+    }
+
+@media screen and (max-width: 600px) {
+    #save-name{
+        background-color: ;
+        color: white;
+        width: 28%;
+        margin-top: ;
+        margin-bottom: ;
+        float: right;
+        margin-right: 2px;
+        font-size: 23px;
+        font-weight: bold;
+        display: ;
+    }
+}
+#image{
+	height: ;
+	margin-right: 2px;
+	margin-bottom: 0px;
+}
+
+#screen-area{
+	margin: ;
+	display: flex;
+	background-color: ;
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom: ;
+	padding-left: ;
+}
+
+/*@keyframes blinktext{
+      0%{   color: #10c011ff;   }
+      25%{  color: red;   }
+      50%{    color: blue; }
+      75%{   color: orange;  }
+  }
+  #screen-btn{
+    animation:blinktext 5s infinite;
+  }*/
+#screen-btn{
+	width: 40%;
+	height: 60px;
+	margin-left: ;
+	margin-top: ;
+	font-size: 20px;
+	font-weight: bolder;
+	border-radius: 10px;
+	background-color: ;
+}
+
+@media screen and (max-width: 600px){
+	#screen-btn{
+		margin-left: ;
+		width: 30%;
+	}
+}
+
+#time{
+	font-size: 15px;
+	color: white;
+	margin-left: 30px;
+	width: 30%;
+	margin-top: ;
+	margin-bottom: ;
+	padding-top: 25px;
+	background-color: ;
+	
+}
+
+@media screen and (max-width: 600px) {
+	#time{
+		font-size: 10px;
+		margin-left: 15px;
+	}
+}
+#countdownArea{
+  float: ;
+  background-color: ;
+  width: 40%;
+  display: flex;
+}
+#countdown{
+	font-size: 60px;
+	color: white;
+	margin-left: 20px;
+	margin-top: ;
+	width: 25%;
+	background-color: ;
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	#countdown{
+		font-size: 50px;
+		margin-left: 0;
+	}
+}
+
+#remin{
+	font-size: 30px;
+	color: white;
+	display: none;
+	background-color: ;
+	padding-top: 15px;
+	margin-left: -22px;
+}
+@media screen and (max-width: 600px) {
+  #remin{
+    font-size: 15px;
+    margin-left: 9px;
+    padding-top: 20px;
+  }
+}
+
+/*#vido2{
+	width: 500px;
+	height: 100px;
+}*/
+
+img{
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: -10px;
+}
+@media screen and (max-width: 600px) {
+	img{
+		width: 30px;
+		height: 30px;
+	}
+}
+
+#genimg{
+	width: 0;
+	height: 0;
+}
+
+.fa-home{
+	color: blue;
+}
+
+.fa-arrow-pointer{
+	color: yellow;
+}
+
+#num1, #num2, #num3, #num4, #num5, #num6, #num7{
+	color: blue;
+	font-size: 50px;
+	width: 100px;
+	height: 70px;
+	background-color: brown;
+	text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+	#num1, #num2, #num3, #num4, #num5, #num6, #num7{
+		font-size: 30px;
+		width: 60px;
+	}
+}
+
+#num8, #num9, #num10, #num11{
+	color: blue;
+	font-size: 50px;
+	width: 100px;
+	height: 70px;
+	background-color: gray;
+	text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+	#num8, #num9, #num10, #num11{
+		font-size: 30px;
+		width: 60px;
+	}
+}
+
+
+#num12, #num13, #num14, #num15, #num16, #num17, #num18{
+	color: blue;
+	font-size: 50px;
+	width: 100px;
+	height: 70px;
+	background-color: paleturquoise;
+	text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+	#num12, #num13, #num14, #num15, #num16, #num17, #num18{
+		font-size: 30px;
+		width: 60px;
+	}
+}
+
+
+#num19, #num20, #num21, #num22, #num23{
+	color: blue;
+	font-size: 30px;
+	width: 73px;
+	height: 58px;
+	background-color: deeppink;
+	text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+	#num19, #num20, #num21, #num22, #num23{
+		width: 44px;
+		font-size: 20px;
+	}
+}
+
+
+#num24, #num25, #num26, #num27, #num28, #num29{
+	color: blue;
+	font-size: 30px;
+	width: 70px;
+	height: 56px;
+	background-color: black;
+	text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+	#num24, #num25, #num26, #num27, #num28, #num29{
+		width: 44px;
+		font-size: 20px;
+	}
+}
+
+#num30, #num31{
+	color: blue;
+	font-size: 50px;
+	width: 130px;
+	height: 60px;
+	background-color: steelblue;
+	text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+	#num30, #num31{
+		font-size: 30px;
+		width: 77px;
+	}
+}
+
+#num32, #num33{
+	color: blue;
+	font-size: 50px;
+	width: 80px;
+	height: 120px;
+	background-color: greenyellow;
+	text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+	#num32, #num33{
+		width: 40px;
+		font-size: 30px;
+	}
+}
+
+#num34, #num35{
+	color: blue;
+	font-size: 40px;
+	width: 75px;
+	height: 100px;
+	background-color: whitesmoke;
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	#num34, #num35{
+		width: 40px;
+		font-size: 30px;
+	}
+}
+#entry{
+     width: 75px;
+     height: 60px;
+     font-size: 40px;
+     background-color: black;
+}
+@media screen and (max-width: 600px) {
+#entry{
+     width: 40px;
+     height: 60px;
+     }
+}
+
+#home{
+     width: 150px;
+     height: 70px;
+     margin-left: -22px;
+     font-size: 40px;
+     background-color: yellow;
+}
+
+@media screen and (max-width: 600px) {
+#home{
+     width: 100px;
+     height: 70px;
+     margin-left: -22px;
+     }
+}
+
+#num1-7{
+	display: grid;
+	margin-top: -70px;
+	margin-bottom: 200px;
+	margin-left: 10%;
+}
+
+@media screen and (max-width: 600px) {
+     #num1-7{
+          margin-left: 7%;
+     }
+}
+
+#num8-11{
+	margin-left: 22.3%;
+	margin-bottom: ;
+	margin-top: -30.6em;
+	display: flex;
+}
+
+@media screen and (max-width: 600px) {
+     #num8-11{
+          margin-left: 22%;
+     }
+}
+
+#num12-18{
+	display: grid;
+	margin-left: 71.9%;
+	margin-bottom: ;
+	margin-top: -30.6em;
+}
+
+@media screen and (max-width: 600px) {
+	#num12-18{
+		margin-left: 79.7%;
+	}
+}
+
+#num19-23{
+	margin-left: 26.5%;
+	margin-bottom: ;
+	margin-top: 1em;
+	display: flex;
+}
+
+@media screen and (max-width: 600px) {
+     #num19-23{
+          margin-left: 27%;
+     }
+}
+
+#num24-29{
+	display: grid;
+	margin-left: 26.5%;
+	margin-bottom: -17px;
+	margin-top: -10em;
+}
+
+@media screen and (max-width: 600px) {
+     #num24-29{
+          margin-left: 27%;
+     }
+}
+
+#num30-31{
+	display: flex;
+	margin-left: 35%;
+	margin-bottom: 6.2em;
+	margin-top: -73px;
+}
+
+@media screen and (max-width: 600px) {
+     #num30-31{
+          margin-left: 36%;
+     }
+}
+
+#num32-33{
+	display: grid;
+	margin-left: 57.4%;
+	margin-bottom: -18.4em;
+	margin-top: 4em;
+}
+
+@media screen and (max-width: 600px) {
+     #num32-33{
+          margin-left: 62.7%;
+     }
+}
+
+#num34-35{
+	display: flex;
+	margin-left: 39%;
+	margin-bottom: -19em;
+	margin-top: 17.5em;
+}
+
+@media screen and (max-width: 600px) {
+     #num34-35{
+          margin-left: 43.4%;
+     }
+}
+
+#entry-home{
+     display: grid;
+     margin-left: 39%;
+     margin-bottom: -18em;
+     margin-top: 9em;
+}
+
+@media screen and (max-width: 600px) {
+     #entry-home{
+          margin-left: 43.5%;
+          margin-bottom: -18em;
+          margin-top: 8.9em;
+     }
+}
+
+#action-area{
+	margin-top: -180px;
+}
+
+#counter-btn{
+	width: 80px;
+	height: 60px;
+	background-color: black;
+	color: white;
+	font-size: 50px;
+}
+
+@media screen and (max-width: 600px) {
+	#counter-btn{
+		width: 60px;
+		height: 40px;
+		font-size: 30px;
+	}
+}
+
+#counter-btn:hover{
+	background-color: orange;
+	color: green;
+}
+
+#clickValue{
+	width: 70px;
+	height: 55px;
+	background-color: royalblue;
+	color: white;
+	font-size: 45px;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+
+@media screen and (max-width: 600px) {
+	#clickValue{
+		width: 50px;
+		height: 35px;
+		font-size: 25px;
+	}
+}
+
+#clickValue:hover{
+	background-color: orange;
+}
+
+#start-div{
+	background-color: ;
+	width: 100%;
+}
+
+#goo{
+	font-size: 25px;
+	font-weight: bold;
+	width: 8%;
+	font-family: Helvetica;
+	align-self: center;
+	color: blue;
+	background-color: springgreen;
+	cursor: pointer;
+	border-width: 10px;
+	border-radius: 50%;
+	height: 70px;
+	border-color: deepskyblue;
+	margin-left: 20%;
+	animation-name: flash;
+     animation-duration: 0.8s;
+     animation-iteration-count: infinite;
+}
+
+ @keyframes flash {
+            0%, 50%, 100% {
+               opacity: 1;
+            }
+            25%, 75% {
+               opacity: 0;
+            }
+         }
+        
+@media screen and (max-width: 600px) {
+	#goo{
+		width: 18%;
+		margin-left: 30px;
+		border-radius: 50%;
+		border-width: 8px;
+		height: 70px;
+	}
+}
+
+
+#cancel{
+	font-size: 30px;
+	font-weight: ;
+	width: 100px;
+	float: right;
+	background-color: red;
+	border-width: 8px;
+	border-color: brown;
+	color: white;
+	font-style: oblique;
+	margin-right: 20%;
+	font-family: serif;
+	cursor: pointer;
+	animation: changeColor 10s infinite;
+}
+
+@media screen and (max-width: 600px) {
+	#cancel{
+		margin-right: 5%;
+		margin-top: 10px;
+	}
+}
+
+@keyframes changeColor{
+      0%{   color: white;   }
+      25%{  color: yellow;   }
+      50%{    color: blue; }
+      75%{   color: orange;  }
+  }
+
+
+#start-btn{
+	width: 150px;
+	height: 70px;
+	background-color: darkblue;
+	color: white;
+	margin-left: 10%;
+	margin-top: ;
+	margin-bottom: 30px;
+	cursor: pointer;
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: times-newroman;
+	border-bottom-right-radius: ;
+	border-bottom-left-radius: ;
+	border-top: 5px solid whitesmoke;
+	border-left: 4px solid gray;
+	border-right: 4px solid gray;
+	border-width: 10px;
+	border-bottom: 15px solid blue;
+	
+}
+
+@media screen and (max-width: 600px) {
+  #start-btn{
+      margin-left: 25px;
+      width: 120px;
+      height: 60px;
+      font-size: 25px;
+      border-width: 8px;
+	 border-bottom: 12px solid blue;
+  }
+  
+}
+#start-btn:hover{
+	color: yellow;
+}
+
+#start-btn2{
+	color: white;
+	font-size: 10px;
+	margin-bottom: -55px;
+	margin-left: 14%;
+	position: relative;
+	width: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  #start-btn2{
+  	font-size: 10px;
+  	margin-bottom: -48px;
+  }
+
+}
+
+#others-btn{
+	display: flex;
+	margin-top: -1em;
+	margin-bottom: ;
+	padding-bottom: 8px;
+	margin-left: 15px;
+}
+
+#value-btn, #value-btn2, #value-btn3, #value-btn4, #value-btn5, #value-btn6{
+	background-color: pink;
+	width: 70px;
+	height: 50px;
+	font-size: 40px;
+	color: blue;
+}
+
+@media screen and (max-width: 600px) {
+  #value-btn, #value-btn2, #value-btn3, #value-btn4, #value-btn5, #value-btn6{
+  	width: 30px;
+  	height: 40px;
+  	font-size: 30px;
+  }
+
+}
+
+#value-btn:hover, #value-btn2:hover, #value-btn3:hover, #value-btn4:hover, #value-btn5:hover, #value-btn6:hover{
+	background-color: orange;
+}
+
+#counter-div{
+	float: left;
+	background-color: ;
+	display: flex;
+}
+
+
+@media screen and (max-width: 600px) {
+  #counter-div{
+  	width: ;	
+  }
+
+}
+
+
+
+#value-div{
+	margin-left: 15%;
+	background-color: ;
+}
