@@ -4,7 +4,6 @@
 }
 
 body {
-	overflow-y: ;
 	height: vh;
 	margin: 0;
 }
@@ -14,11 +13,10 @@ body {
 	width: 100%;
 	margin: 0;
 }
-@media screen and (ma){
+/* @media screen and (ma){
 	#main-container{
-	width: ;
 	}
-}
+} */
 
 
 
@@ -27,8 +25,6 @@ body {
   width: 0; 
   position: absolute; 
   z-index: 1; 
-  top: ;
-  left: ;
   display: grid;
   background-color: #111; 
   overflow-x: hidden; 
@@ -70,7 +66,6 @@ body {
 .openbtn:hover {
   color: white;
   background-color: blue;
-  position: ;
 }
 
 
@@ -124,7 +119,6 @@ body {
 
 #main{
     display: grid;
-    background-color: ;
     margin-top: -80px;
     margin-bottom: -70px;
     width: 100%;
@@ -132,25 +126,18 @@ body {
 
 #screen-area{
 	margin: auto;
-	display: ;
-	background-color: ;
+	
 	width: 75%;
 	margin-top: 4px;
-	margin-bottom: ;
-	padding-left: ;
 }
 
 #screen-btn{
 	width: 100%;
 	height: 80px;
-	margin-left: ;
-	margin-top: ;
 	font-size: 20px;
 	font-weight: bolder;
 	border-radius: 10px;
 	background-color: #3A3B3C;
-	position: ;
-	visibility: ;
 	
 }
 
@@ -160,26 +147,22 @@ body {
 	visibility: hidden;
 	bottom: 50px;
 	left: 82%;
-	background-color: ;
 }
 
 
 #time{
 	font-size: 15px;
-	color: black	;
+	color: black;
 	margin-left: 5px;
-	margin-top: ;
 	position: relative;
 	top: -95px;
-	background-color: ;
 	visibility: hidden;
 }
 
 
 #countdownArea{
   float: right;
-  background-color: ;
-  width: ;
+ 
   display: flex;
   position: relative;
   top: -125px;
@@ -188,11 +171,6 @@ body {
 #countdown{
 	font-size: 50px;
 	color: black;
-	margin-left: ;
-	margin-top: ;
-	width: ;
-	background-color: ;
-	display: ;
 	visibility: hidden;
 }
 
@@ -206,10 +184,8 @@ body {
 #remin{
 	font-size: 30px;
 	color: black;
-	background-color: ;
 	margin-top: 5px;
-	margin-left: ;
-	display: ;
+	
 	visibility: hidden;
 }
 @media screen and (max) {
@@ -241,7 +217,6 @@ body {
 
 
 #save-name{
-        background-color: ;
         color: black;
         width: 100%;
         position: relative;
@@ -250,28 +225,21 @@ body {
         margin-right: 5px;
         font-size: 23px;
         font-weight: bold;
-        display: ;
         visibility: hidden;
         text-align: right;
     }
 
 @media screen and (max-) {
     #save-nam{
-        background-color: ;
         color: white;
-        width: ;
-        margin-top: ;
-        margin-bottom: ;
+        
         float: right;
-        margin-right: ;
         font-size: 23px;
         font-weight: bold;
-        display: ;
-        padding-left: ;
+       
     }
 }
 #image{
-	height: ;
 	margin-right: 2px;
 	margin-bottom: 0px;
 }
