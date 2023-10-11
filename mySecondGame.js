@@ -265,17 +265,6 @@ function startGame() {
   }, 1000);
 }
 
-/*function startCount2() {
-        document.getElementById("start-btn").innerHTML = "Continue"
-        document.getElementById("start-btn2").innerHTML = ""
-    
-};
-
-function startCount3() {
-    document.getElementById("start-btn").innerHTML = "Play"
-    document.getElementById("start-btn2").innerHTML = "You've stop clicking"
-};*/
-
 function sumValue1() {
   if (document.getElementById("value-btn1").innerText == 1) {
     document.getElementById("clickValue").innerHTML = 1;
