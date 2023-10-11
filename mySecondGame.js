@@ -197,9 +197,6 @@ function saveName() {
 }
 
 function startGame() {
-  //let b1 = document.getElementById("blink1").innerHTML;
-  //let b2 = document.getElementById("blink2").innerHTML;
-  //let b3 = document.getElementById("blink3").innerHTML;
   let welcome = "Please wait, game is loading ";
   document.getElementById("time").style.visibility = "visible";
   document.getElementById("time").style.color = "darkblue";
@@ -225,6 +222,7 @@ function startGame() {
   document.getElementById("save-name").innerHTML =
     document.getElementById("save-name").innerHTML;
   let downloadTimer = setInterval(function () {
+    console.log(timeleft);
     if (timeleft <= 60) {
       document.getElementById("countdown").style.visibility = "visible";
       document.getElementById("remin").style.visibility = "visible";

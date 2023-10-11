@@ -133,20 +133,19 @@ body {
   color: black;
   margin-left: 5px;
   position: relative;
-  top: -95px;
+  top: -75px;
   visibility: hidden;
 }
 
 #countdownArea {
   float: right;
-
   display: flex;
   position: relative;
-  top: -125px;
+  top: -85px;
   margin-right: 5px;
 }
 #countdown {
-  font-size: 50px;
+  font-size: 30px;
   color: black;
   visibility: hidden;
 }
