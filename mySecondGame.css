@@ -247,11 +247,10 @@ body {
 
 
 
-#move-area{
-	margin-left: ;
-	background-color: ;
+/* #move-area{
 	
-}
+	
+} */
 
 @media screen and (min-width: 600px) {
 	#move-area{
@@ -377,21 +376,18 @@ img{
 @media screen and (max-w) {
 	#num1, #num2, #num3, #num4, #num5, #num6, #num7{
 		font-size: 30px;
-		width: ;
 	}
 }
 
 #num1-10{
 	display: grid;
 	margin-top: -50px;
-	background-color: ;
 }
 
-@media screen and (ma) {
+/* @media screen and (ma) {
      #num1-10{
-         /* margin-left: 7%;*/
      }
-}
+} */
 
 
 
@@ -407,7 +403,6 @@ img{
 @media screen and (max-wi) {
 	#num8, #num9, #num10, #num11{
 		font-size: 30px;
-		width: ;
 	}
 }
 
@@ -420,11 +415,10 @@ img{
 
 }
 
-@media screen and (max) {
+/* @media screen and (max) {
      #num8-12{
-          margin-left: ;
      }
-}
+} */
 
 
 #num18, #num19, #num20, #num21, #num22, #num23, #num24, #num25, #num26, #num27{
@@ -436,28 +430,25 @@ img{
 	text-align: right;
 }
 
-@media screen and (ma) {
+/* @media screen and (ma) {
 	#num12, #num13, #num14, #num15, #num16, #num17, #num18{
-		font-size: ;
-		width: ;
+		
 	}
-}
+} */
 
 #num18-27{
 	display: grid;
 	margin-left: 88%;
-	margin-top: ;
 	background-color: red;
 	position: relative;
 	top: -1230px;
 
 }
 
-@media screen and (max) {
+/* @media screen and (max) {
 	#num13-19{
-		margin-left: ;
 	}
-}
+} */
 
 
 #num28, #num29, #num30, #num31, #num32, #num33{
@@ -469,27 +460,23 @@ img{
 	text-align: right;
 }
 
-@media screen and (ma) {
+/* @media screen and (ma) {
 	#num20, #num21, #num22, #num23{
-		width: ;
-		font-size: ;
+		
 	}
-}
+} */
 
 
 #num28-33{
-	margin-left: ;
 	left: 18%;
 	display: flex;
 	position: relative;
 	top: -730px;
-	background-color: ;
 	margin-right: 30%;
 }
 
 @media screen and (ma) {
      #num20-24{
-          margin-left: ;
      }
 }
 
@@ -503,12 +490,11 @@ img{
 	text-align: right;
 }
 
-@media screen and (max) {
+/* @media screen and (max) {
 	#num24, #num25, #num26, #num27, #num28, #num29{
-		width: ;
-		font-size: ;
+		
 	}
-}
+} */
 
 
 #num34-40{
@@ -517,7 +503,6 @@ img{
 	top: -730px;
 	margin-right: 35%;
 	left: 18%;
-	background-color: ;
 }
 
 @media screen and (ma) {
@@ -535,27 +520,24 @@ img{
 	text-align: right;
 }
 
-@media screen and (max) {
+/* @media screen and (max) {
 	#num31, #num{
-		font-size: ;
-		width: ;
+		
 	}
-}
+} */
 
 #num41-45{
 	display: flex;
-	background-color: ;
 	position: relative;
 	top: -677px;
 	left: 29.7%;
 	margin-right: 35%;
 }
 
-@media screen and (max) {
+/* @media screen and (max) {
      #num31-35{
-          margin-left: ;
      }
-}
+} */
 
 #num46, #num47, #num48, #num49, #num50{
 	color: blue;
@@ -566,27 +548,24 @@ img{
 	text-align: right;
 }
 
-@media screen and (max-) {
+/* @media screen and (max-) {
 	#num32, #num33{
-		width: ;
-		font-size: ;
+		
 	}
-}
+} */
 
 #num46-50{
 	display: grid;
 	position: relative;
 	left: 71.2%;
 	top: -339px;
-	background-color: ;
 	margin-right: 75%;
 }
 
-@media screen and (max-w) {
+/* @media screen and (max-w) {
      #num32-33{
-          margin-left: ;
      }
-}
+} */
 
 
 
@@ -630,27 +609,24 @@ img{
 	text-align: right;
 }
 
-@media screen and (max-) {
+/* @media screen and (max-) {
 	#num32, #num33{
-		width: ;
-		font-size: ;
+	
 	}
-}
+} */
 
 #num54-57{
 	display: grid;
 	position: relative;
 	left: 35.2%;
 	top: -54px;
-	background-color: ;
 	margin-right: 65%;
 }
 
-@media screen and (max-w) {
+/* @media screen and (max-w) {
      #num32-33{
-          margin-left: ;
      }
-}
+} */
 
 #num58, #num59{
 	color: blue;
@@ -661,27 +637,23 @@ img{
 	text-align: right;
 }
 
-@media screen and (max-) {
+/* @media screen and (max-) {
 	#num32, #num33{
-		width: ;
-		font-size: ;
 	}
-}
+} */
 
 #num58-59{
 	display: flex;
 	position: relative;
 	left: 47.2%;
 	top: -4px;
-	background-color: ;
 	margin-right: 55%;
 }
 
-@media screen and (max-w) {
+/* @media screen and (max-w) {
      #num32-33{
-          margin-left: ;
      }
-}
+} */
 
 #num60, #entry{
 	color: blue;
@@ -692,27 +664,24 @@ img{
 	text-align: center;
 }
 
-@media screen and (max-) {
+/* @media screen and (max-) {
 	#num32, #num33{
-		width: ;
-		font-size: ;
+		
 	}
-}
+} */
 
 #num60-entry{
 	display: grid;
 	position: relative;
 	left: 55.9%;
 	top: 136px;
-	background-color: ;
 	margin-right: 70%;
 }
 
-@media screen and (max-w) {
+/* @media screen and (max-w) {
      #num32-33{
-          margin-left: ;
      }
-}
+} */
 
 #entry-home{
      display: flex;
@@ -723,13 +692,11 @@ img{
      background-color: darkred;
 }
 
-@media screen and (max) {
+/* @media screen and (max) {
      #entry-home{
-          margin-left: ;
-          margin-bottom: ;
-          margin-top: ;
+         
      }
-}
+} */
 
 #home{
      width: 82%;
@@ -742,7 +709,6 @@ img{
 #home{
      width: 100px;
      height: 70px;
-     margin-left: ;
      }
 }
 
@@ -775,9 +741,7 @@ img{
 	background-color: black;
 	color: white;
 	font-size: 30px;
-	opacity: ;
-	position: ;
-	z-index: ;
+	
 }
 
 @media screen and (max-width: 768px) {
@@ -796,9 +760,7 @@ img{
 #generate{
     font-size: 25px;
     border: none;
-    background-color: ;
     margin-left: -75px;
-    height: ;
     margin-top: 20px;
     opacity: .9;
     color: white;
@@ -808,7 +770,6 @@ img{
 		margin-left: -55px;
 		margin-top: 12px;
 		font-size: 15px;
-		height: ;
 	}
 }
 
@@ -839,7 +800,6 @@ img{
 #value-txt{
     font-size: 12px;
     border: none;
-    background-color: ;
     margin-left: -50px;
     height: 15px;
     margin-top: 35px;
@@ -856,7 +816,6 @@ img{
 }
 
 #start-div{
-	background-color: ;
 	width: 100%;
 }
 
@@ -901,7 +860,6 @@ img{
 
 #cancel{
 	font-size: 30px;
-	font-weight: ;
 	width: 100px;
 	float: right;
 	background-color: red;
