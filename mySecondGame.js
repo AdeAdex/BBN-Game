@@ -203,13 +203,13 @@ function startGame() {
   document.getElementById("screen-btn").innerHTML = welcome; //+ " " + document.getElementById("screen-btn").innerHTML + " please waite";
   document.getElementById("screen-btn").style.backgroundColor = "white";
   document.getElementById("screen-btn").style.color = "darkblue";
-  document.getElementById("refresh").style.visibility = "visible";
+//   document.getElementById("remin").style.visibility = "visible";
   document.getElementById("start-btn").disabled = true;
   let waitingTime = setInterval(function () {
     if ((document.getElementById("screen-btn").innerHTML = welcome)) {
       clearInterval(waitingTime);
       document.getElementById("screen-btn").innerHTML = "";
-      document.getElementById("refresh").style.visibility = "hidden";
+    //   document.getElementById("remin").style.visibility = "hidden";
     } else {
       //document.getElementById("screen-btn").innerHTML = " Hello";
     }

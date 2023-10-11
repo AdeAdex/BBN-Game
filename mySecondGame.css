@@ -120,13 +120,13 @@ body {
   background-color: #3a3b3c;
 }
 
-#refresh {
+/* #remin {
   color: darkblue;
   position: relative;
   visibility: hidden;
   bottom: 50px;
   left: 82%;
-}
+} */
 
 #time {
   font-size: 15px;
@@ -152,18 +152,18 @@ body {
 
 @media screen and (max) {
   #countdown {
-    font-size: 50px;
+    font-size: 30px;
     margin-left: 5px;
   }
 }
 
 #remin {
-  font-size: 30px;
+  font-size: 15px;
   color: black;
   margin-top: 5px;
-
   visibility: hidden;
 }
+
 @media screen and (max) {
   #remin {
     font-size: 15px;
@@ -195,7 +195,7 @@ body {
   color: black;
   width: 100%;
   position: relative;
-  top: -125px;
+  top: -85px;
   float: right;
   margin-right: 5px;
   font-size: 23px;
