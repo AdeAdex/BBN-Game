@@ -45,6 +45,12 @@ function closeMe() {
 let counter = 0;
 let count = 0;
 function startCount() {
+  if (document.getElementById("counter-btn").innerHTML >= 60) {
+    alert("Done");
+  } else if (document.getElementById("counter-btn").innerHTML == 60) {
+    document.getElementById("start-btn").disabled = true;
+    document.getElementById("goo").disabled = true;
+  }
   counter += 1;
   document.getElementById("screen-btn").innerHTML =
     Math.floor(Math.random() * 6) + 1;
@@ -203,13 +209,13 @@ function startGame() {
   document.getElementById("screen-btn").innerHTML = welcome; //+ " " + document.getElementById("screen-btn").innerHTML + " please waite";
   document.getElementById("screen-btn").style.backgroundColor = "white";
   document.getElementById("screen-btn").style.color = "darkblue";
-//   document.getElementById("remin").style.visibility = "visible";
+  //   document.getElementById("remin").style.visibility = "visible";
   document.getElementById("start-btn").disabled = true;
   let waitingTime = setInterval(function () {
     if ((document.getElementById("screen-btn").innerHTML = welcome)) {
       clearInterval(waitingTime);
       document.getElementById("screen-btn").innerHTML = "";
-    //   document.getElementById("remin").style.visibility = "hidden";
+      //   document.getElementById("remin").style.visibility = "hidden";
     } else {
       //document.getElementById("screen-btn").innerHTML = " Hello";
     }
@@ -356,10 +362,25 @@ function sumValue6() {
 }
 
 function pasteValue() {
-  document.getElementById("counter-btn").innerHTML =
+  if (document.getElementById("counter-btn").innerHTML == 60) {
+    document.getElementById("counter-btn").innerHTML = count;
+  } else if (
+    document.getElementById("counter-btn").innerHTML < 60 &&
+    document.getElementById("clickValue").innerHTML > 0
+  ) {
+    document.getElementById("counter-btn").innerHTML =
+      parseInt(document.getElementById("clickValue").innerHTML) +
+      parseInt(document.getElementById("counter-btn").innerHTML);
+    document.getElementById("clickValue").innerHTML = count;
+    
+  } else if (
+    document.getElementById("counter-btn").innerHTML < 60 &&
     parseInt(document.getElementById("clickValue").innerHTML) +
-    parseInt(document.getElementById("counter-btn").innerHTML);
-  document.getElementById("clickValue").innerHTML = count;
+      parseInt(document.getElementById("counter-btn").innerHTML) >
+      60
+  ) {
+    document.getElementById("counter-btn").innerHTML = 60;
+  }
 }
 
 function sumCount() {
@@ -433,6 +454,56 @@ function sumCount() {
     document.getElementById("num34").style.backgroundColor = "orange";
   } else if (document.getElementById("counter-btn").innerHTML == 35) {
     document.getElementById("num35").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 36) {
+    document.getElementById("num36").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 37) {
+    document.getElementById("num37").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 38) {
+    document.getElementById("num38").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 39) {
+    document.getElementById("num39").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 40) {
+    document.getElementById("num40").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 41) {
+    document.getElementById("num41").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 42) {
+    document.getElementById("num42").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 43) {
+    document.getElementById("num43").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 44) {
+    document.getElementById("num44").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 45) {
+    document.getElementById("num45").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 46) {
+    document.getElementById("num46").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 47) {
+    document.getElementById("num47").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 48) {
+    document.getElementById("num48").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 49) {
+    document.getElementById("num49").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 50) {
+    document.getElementById("num50").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 51) {
+    document.getElementById("num51").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 52) {
+    document.getElementById("num52").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 53) {
+    document.getElementById("num53").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 54) {
+    document.getElementById("num54").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 55) {
+    document.getElementById("num55").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 56) {
+    document.getElementById("num56").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 57) {
+    document.getElementById("num57").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 58) {
+    document.getElementById("num58").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 59) {
+    document.getElementById("num59").style.backgroundColor = "orange";
+  } else if (document.getElementById("counter-btn").innerHTML == 60) {
+    document.getElementById("num60").style.backgroundColor = "orange";
   } else {
     document.getElementById("entry").style.backgroundColor = "cyan";
     document.getElementById("home").style.backgroundColor = "white";
