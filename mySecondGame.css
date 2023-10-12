@@ -738,7 +738,7 @@ img {
   #counter-btn {
     width: 60px;
     height: 40px;
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
@@ -842,12 +842,19 @@ img {
 
 @media screen and (max-width: 768px) {
   #goo {
-    width: 18%;
-    margin-left: 30px;
+    width: 70px;
+    margin-left: 10%;
     border-radius: 50%;
     border-width: 8px;
     height: 70px;
+    font-size: 15px;
   }
+
+  #start-div {
+	width: 100%;
+	justify-content: space-between;
+	padding: 0px 20px;
+      }
 }
 
 #cancel {
@@ -867,8 +874,10 @@ img {
 
 @media screen and (max-width: 768px) {
   #cancel {
-    margin-right: 10%;
-    margin-top: 10px;
+	width: 70px;
+	font-size: 14px;
+    margin-right: unset;
+    margin-top: 20px;
   }
 }
 
@@ -908,10 +917,10 @@ img {
 
 @media screen and (max-width: 768px) {
   #start-btn {
-    margin-left: 25px;
-    width: 120px;
-    height: 60px;
-    font-size: 25px;
+    margin-left: unset;
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
     border-width: 8px;
     border-bottom: 12px solid blue;
   }
@@ -963,9 +972,9 @@ img {
   #value-btn4,
   #value-btn5,
   #value-btn6 {
-    width: 30px;
-    height: 40px;
-    font-size: 30px;
+    width: 20px;
+    height: 30px;
+    font-size: 15px;
   }
 }
 
