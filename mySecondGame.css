@@ -92,11 +92,6 @@ body {
   color: blue;
 }
 
-@media screen and (ma) {
-  #gen-why {
-  }
-}
-
 #main {
   display: grid;
   margin-top: -80px;
@@ -120,13 +115,6 @@ body {
   background-color: #3a3b3c;
 }
 
-/* #remin {
-  color: darkblue;
-  position: relative;
-  visibility: hidden;
-  bottom: 50px;
-  left: 82%;
-} */
 
 #time {
   font-size: 15px;
@@ -466,11 +454,6 @@ img {
   margin-right: 30%;
 }
 
-@media screen and (ma) {
-  #num20-24 {
-  }
-}
-
 #num34,
 #num35,
 #num36,
@@ -486,11 +469,6 @@ img {
   text-align: right;
 }
 
-/* @media screen and (max) {
-	#num24, #num25, #num26, #num27, #num28, #num29{
-		
-	}
-} */
 
 #num34-40 {
   display: grid;

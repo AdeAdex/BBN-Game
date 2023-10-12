@@ -46,7 +46,8 @@ let counter = 0;
 let count = 0;
 function startCount() {
   if (document.getElementById("counter-btn").innerHTML >= 60) {
-    alert("Done");
+    document.getElementById("start-btn").disabled = true;
+    document.getElementById("goo").disabled = true;
   } else if (document.getElementById("counter-btn").innerHTML == 60) {
     document.getElementById("start-btn").disabled = true;
     document.getElementById("goo").disabled = true;
@@ -228,7 +229,6 @@ function startGame() {
   document.getElementById("save-name").innerHTML =
     document.getElementById("save-name").innerHTML;
   let downloadTimer = setInterval(function () {
-    console.log(timeleft);
     if (timeleft <= 60) {
       document.getElementById("countdown").style.visibility = "visible";
       document.getElementById("remin").style.visibility = "visible";
