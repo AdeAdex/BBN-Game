@@ -9,32 +9,62 @@ function closeNav() {
 }
 
 function whyClick() {
-  alert(
-    "This game is designed and developed to determine, find and decide who's going to be the head or the champion among group of people or set of players." +
-      "\n\nTo start playing the game, each player uppon start has to press the 'Reset' button to refresh and reset the game back to its default setting which will also ask for your name to know what to call you and also give access to the 'Start' button but excluding the 'Play' button." +
-      "\n\nPress the 'Start' button to start the game which after pressing the 'Start' button, the game started counting down the numbers of seconds (60s) you have to use in playing the game and then give access to the 'play' button which you can use to roll the dies." +
-      "\n\nNow you can now press the 'Play' button that roll the dies." +
-      "\n\nContinue pressing the 'Play' button and see your output on the screen at the top," +
-      "\n\nNote: After clicking the 'Numbers' button, Press the 'Value' button and then the 'Generate' button before you will click the 'Play' button again." +
-      "\n\nNote that when your time elapse, you won't be able to click the 'Play' button again untill the next player start." +
-      "\n\nEnjoy as you play the game." +
-      "\nCheers"
-  );
+  Swal.fire({
+    icon: 'warning',
+    title: 'Instruction',
+    html: `
+    <div id="game-instructions">
+  <p>
+    This game is designed and developed to determine, find, and decide who's going to be the head or the champion among a group of people or set of players.
+  </p>
+  <p>
+    To start playing the game, follow these steps:
+  </p>
+  <ol>
+    <li>Press the 'Reset' button to refresh and reset the game to its default settings.</li>
+    <li>Enter your name when prompted.</li>
+    <li>Press the 'Start' button to begin the game countdown (60s).</li>
+    <li>Press the 'Play' button to roll the dice.</li>
+    <li>Continue pressing the 'Play' button and observe the results at the top of the screen.</li>
+  </ol>
+  <p>
+    Note: After clicking the 'Numbers' button, press the 'Value' button, and then the 'Generate' button before clicking the 'Play' button again.
+  </p>
+  <p>
+    Please be aware that once your time elapses, you won't be able to click the 'Play' button again until the next player starts.
+  </p>
+  <p>
+    Enjoy playing the game and have fun!
+  </p>
+  <p>Cheers!</p>
+</div>
+
+    `,
+  })
+  
+ 
 }
 
 function changeName() {
-  /*firstPlayer = */ prompt(
-    "Why do you want to change your name",
-    "Oga, continue playing the game jhor. lolz"
-  );
-  //secondPlayer = prompt("Whats your new name player 2")
+  Swal.fire({
+    icon: 'error',
+    title: 'Oops...',
+    text: 'Something went wrong!',
+  })
 }
-0;
+
 
 function aboutUs() {
-  alert(
-    "This game is designed and developed by Amole Adeolu. The game was developed in year 2022 by Adex. \n If you want to assist and encourage us, you can reach us @adeoluamole@gmail.com or at +2347033959586 "
-  );
+  Swal.fire({
+    icon: 'info',
+    title: 'About the Game',
+    html: `
+      <p>This game is designed and developed by Amole Adeolu.</p>
+      <p>The game was developed in the year 2022 by Adex.</p>
+      <p>If you want to assist and encourage us, you can reach us at <a href="mailto:adeoluamole@gmail.com">adeoluamole@gmail.com</a> or at <a href="tel:+2347033959586">+2347033959586</a>.</p>
+    `,
+  });
+  
 }
 
 function closeMe() {
@@ -44,6 +74,7 @@ function closeMe() {
 
 let counter = 0;
 let count = 0;
+let startPlay = false
 function startCount() {
   if (document.getElementById("counter-btn").innerHTML >= 60) {
     document.getElementById("start-btn").disabled = true;
@@ -55,6 +86,13 @@ function startCount() {
   counter += 1;
   document.getElementById("screen-btn").innerHTML =
     Math.floor(Math.random() * 6) + 1;
+
+    if (document.getElementById("screen-btn").innerHTML == 6) {
+     startPlay = true;
+    }
+
+    if (startPlay) {
+       
   if (document.getElementById("screen-btn").innerHTML == 6) {
     document.getElementById("value-btn6").innerHTML =
       document.getElementById("screen-btn").innerHTML;
@@ -129,9 +167,11 @@ function startCount() {
     document.getElementById("value-btn4").disabled = true;
     document.getElementById("value-btn5").disabled = true;
     document.getElementById("value-btn6").disabled = true;
-  } else {
-    ("Continue rolling the dies");
   }
+    } else {
+      ("Continue rolling the dies");
+    }
+   
 }
 
 setInterval(myDays);
