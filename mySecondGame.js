@@ -14,31 +14,30 @@ function whyClick() {
     title: 'Instruction',
     html: `
     <div id="game-instructions">
-  <p>
-    This game is designed and developed to determine, find, and decide who's going to be the head or the champion among a group of people or set of players.
-  </p>
-  <p>
-    To start playing the game, follow these steps:
-  </p>
-  <ol>
-    <li>Press the 'Reset' button to refresh and reset the game to its default settings.</li>
-    <li>Enter your name when prompted.</li>
-    <li>Press the 'Start' button to begin the game countdown (60s).</li>
-    <li>Press the 'Play' button to roll the dice.</li>
-    <li>Continue pressing the 'Play' button and observe the results at the top of the screen.</li>
-  </ol>
-  <p>
-    Note: After clicking the 'Numbers' button, press the 'Value' button, and then the 'Generate' button before clicking the 'Play' button again.
-  </p>
-  <p>
-    Please be aware that once your time elapses, you won't be able to click the 'Play' button again until the next player starts.
-  </p>
-  <p>
-    Enjoy playing the game and have fun!
-  </p>
-  <p>Cheers!</p>
-</div>
-
+        <p>
+            This game is designed and developed to determine, find, and decide who's going to be the head or the champion among a group of people or set of players.
+        </p>
+        <p>
+            To start playing the game, follow these steps:
+        </p>
+        <ol>
+            <li>Press the 'Reset' button to refresh and reset the game to its default settings.</li>
+            <li>Enter your name when prompted.</li>
+            <li>Press the 'Start' button to begin the game countdown (60s).</li>
+            <li>Press the 'Play' button to roll the dice.</li>
+            <li>Continue pressing the 'Play' button and observe the results at the top of the screen.</li>
+        </ol>
+        <p>
+            Note: After clicking the 'Numbers' button, press the 'Value' button, and then the 'Generate' button before clicking the 'Play' button again.
+        </p>
+        <p>
+            Please be aware that once your time elapses, you won't be able to click the 'Play' button again until the next player starts.
+        </p>
+        <p>
+            Enjoy playing the game and have fun!
+        </p>
+        <p>Cheers!</p>
+    </div>
     `,
   })
   
@@ -59,9 +58,15 @@ function aboutUs() {
     icon: 'info',
     title: 'About the Game',
     html: `
-      <p>This game is designed and developed by Amole Adeolu.</p>
-      <p>The game was developed in the year 2022 by Adex.</p>
-      <p>If you want to assist and encourage us, you can reach us at <a href="mailto:adeoluamole@gmail.com">adeoluamole@gmail.com</a> or at <a href="tel:+2347033959586">+2347033959586</a>.</p>
+    <div id="contact-info">
+    <p>
+        This game was created with passion by Amole Adeolu. If you'd like to get in touch, provide feedback, or show your support, please don't hesitate to contact us:
+    </p>
+    <ul>
+        <li>Email: <a href="mailto:adeoluamole@gmail.com">adeoluamole@gmail.com</a></li>
+        <li>Phone: <a href="tel:+2347033959586">+2347033959586</a></li>
+    </ul>
+</div>
     `,
   });
   
@@ -75,6 +80,7 @@ function closeMe() {
 let counter = 0;
 let count = 0;
 let startPlay = false
+let youCount = false
 function startCount() {
   if (document.getElementById("counter-btn").innerHTML >= 60) {
     document.getElementById("start-btn").disabled = true;
@@ -92,8 +98,9 @@ function startCount() {
     }
 
     if (startPlay) {
+      youCount = true
        
-  if (document.getElementById("screen-btn").innerHTML == 6) {
+  if (document.getElementById("screen-btn").innerHTML == 6 && youCount) {
     document.getElementById("value-btn6").innerHTML =
       document.getElementById("screen-btn").innerHTML;
     sumValue6();
