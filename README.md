@@ -1,7 +1,5 @@
 # Big Brother Naija Lucky Game.
 
-# Big Brother Naija Lucky Game
-
 Welcome to the Big Brother Naija Head of House Lucky Game, a delightful and exciting way to determine the head or champion among a group of participants. This game was meticulously crafted and developed by Amole Adeolu in the year 2022.
 
 ## How to Play
