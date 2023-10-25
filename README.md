@@ -1,16 +1,18 @@
 # Big Brother Naija Lucky Game.
 
+# Big Brother Naija Lucky Game
+
 Welcome to the Big Brother Naija Head of House Lucky Game, a delightful and exciting way to determine the head or champion among a group of participants. This game was meticulously crafted and developed by Amole Adeolu in the year 2022.
 
 ## How to Play
 
-1. Getting started is easy. Follow these steps:
+1. **Getting started is easy. Follow these steps:**
    - Begin by clicking the 'Reset' button to reset the game to its default settings.
    - Enter your name as prompted.
    - Click 'Start' to initiate the game countdown (60 seconds).
    - Roll the dice by clicking the 'Play' button.
 
-2. After clicking the 'Numbers' button, be sure to press the 'Value' button and then the 'Generate' button before you click 'Play' again.
+2. **After clicking the 'Numbers' button, be sure to press the 'Value' button and then the 'Generate' button before you click 'Play' again.
 
 3. Keep in mind that once your time runs out, you'll need to wait for the next player to start a new round.
 
@@ -31,4 +33,3 @@ This game was created with passion by Amole Adeolu. If you'd like to get in touc
 Immerse yourself in this entertaining game and may the luckiest player earn the title of head or champion!
 
 Cheers!
-
