@@ -7,7 +7,7 @@ Welcome to the Big Brother Naija Head of House Lucky Game, a delightful and exci
 1. **Getting started is easy. Follow these steps:**
    - Begin by clicking the 'Reset' button to reset the game to its default settings.
    - Enter your name as prompted.
-   - Click 'Start' to initiate the game countdown (60 seconds).
+   - Click 'Start' to initiate the game countdown (30 seconds).
    - Roll the dice by clicking the 'Play' button.
 
 2. **After clicking the 'Numbers' button, be sure to press the 'Value' button and then the 'Generate' button before you click 'Play' again.
