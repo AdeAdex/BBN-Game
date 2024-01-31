@@ -23,7 +23,7 @@ function whyClick() {
         <ol>
             <li>Press the 'Reset' button to refresh and reset the game to its default settings.</li>
             <li>Enter your name when prompted.</li>
-            <li>Press the 'Start' button to begin the game countdown (60s).</li>
+            <li>Press the 'Start' button to begin the game countdown (30s).</li>
             <li>Press the 'Play' button to roll the dice.</li>
             <li>Continue pressing the 'Play' button and observe the results at the top of the screen.</li>
         </ol>
@@ -82,10 +82,10 @@ let count = 0;
 let startPlay = false
 let youCount = false
 function startCount() {
-  if (document.getElementById("counter-btn").innerHTML >= 60) {
+  if (document.getElementById("counter-btn").innerHTML >= 30) {
     document.getElementById("start-btn").disabled = true;
     document.getElementById("goo").disabled = true;
-  } else if (document.getElementById("counter-btn").innerHTML == 60) {
+  } else if (document.getElementById("counter-btn").innerHTML == 30) {
     document.getElementById("start-btn").disabled = true;
     document.getElementById("goo").disabled = true;
   }
@@ -204,7 +204,7 @@ function saveName() {
   //let short = 300;
   // document.getElementById("countdown").innerHTML = short;
 
-  document.getElementById("countdown").innerHTML = 65;
+  document.getElementById("countdown").innerHTML = 35;
   document.getElementById("goo").disabled = false;
   document.getElementById("start-btn").style.backgroundColor = "darkblue";
   document.getElementById("start-btn").style.borderBottomColor = "blue";
@@ -269,14 +269,14 @@ function startGame() {
     }
   }, 5000);
   let sound1 = new Audio("warning.wav");
-  let shortit = 65;
+  let shortit = 35;
   let timeleft = document.getElementById("countdown").innerHTML;
   document.getElementById("save-name").style.visibility = "visible";
   document.getElementById("save-name").style.color = "darkblue";
   document.getElementById("save-name").innerHTML =
     document.getElementById("save-name").innerHTML;
   let downloadTimer = setInterval(function () {
-    if (timeleft <= 60) {
+    if (timeleft <= 30) {
       document.getElementById("countdown").style.visibility = "visible";
       document.getElementById("remin").style.visibility = "visible";
       document.getElementById("countdown").style.color = "darkblue";
